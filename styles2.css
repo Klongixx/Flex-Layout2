@@ -1,0 +1,35 @@
+.borderline{
+    border: 1px solid;
+    margin-top: 10px;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 100px;
+}
+
+nav{
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main, aside{
+    width: 49%;
+    height: 100vh;
+}
+
+footer{
+    height: 100px;
+}
